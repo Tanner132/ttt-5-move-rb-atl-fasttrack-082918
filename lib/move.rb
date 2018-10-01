@@ -12,5 +12,5 @@ def input_to_index (user_input)
 end
 
 def move(board, input_to_index, user_character= "X") 
- return board[input_to_index] == user_character
+ return board[input_to_index] = user_character
 end 
