@@ -10,7 +10,7 @@ end
 def input_to_index (user_input)
     if user_input > 0 && user_input <= 9
        return converted_input = user_input.to_i - 1
-    else return "Invalid Move."
+    else puts "Invalid Move."
 end
 
 def move(board, input_to_index, user_character= "X") 
